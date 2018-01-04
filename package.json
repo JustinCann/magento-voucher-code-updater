@@ -1,0 +1,18 @@
+{
+    "name": "magento-voucher-code-updater",
+    "version": "1.0.0",
+    "description": "Script to generate MySql to update voucher codes",
+    "main": "index.js",
+    "dependencies": {
+        "babel-preset-es2015": "^6.24.1",
+        "chalk": "^2.3.0",
+        "enquirer": "^1.0.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "babel-node index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Justin David Cann",
+    "license": "ISC"
+}
