@@ -57,8 +57,8 @@ const readAnswers = (answers) => {
 
 /**
  * Creates the voucher code update scripts
- * @param {array} codes answers from the prompt
- * @param {string} fileName answers from the prompt
+ * @param {array} codes codes from code text file
+ * @param {string} fileName file name of the new file
  */
 const createSQLScripts = (codes, fileName) => {
 
